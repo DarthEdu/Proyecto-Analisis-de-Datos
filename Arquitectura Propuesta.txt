@@ -1,0 +1,56 @@
+Arquitectura Propuesta
+1. Bases de Datos Relacionales
+
+    SQLite: Puedes usar SQLite para el almacenamiento y manejo inicial de los datos en formato CSV.
+    MySQL: MySQL puede ser utilizado para manejar datos transaccionales y estructurados que requieren una base de datos más robusta.
+    PostgreSQL: PostgreSQL puede ser usado para análisis de datos y operaciones complejas debido a su potente soporte para funciones avanzadas y tipos de datos.
+
+2. Bases de Datos NoSQL
+
+    MongoDB: MongoDB puede ser usado para almacenar documentos JSON. Es ideal para manejar datos semi-estructurados y no estructurados.
+    Atlas: MongoDB Atlas, una versión administrada de MongoDB, puede ser usada para facilitar la escalabilidad y la administración de datos NoSQL en la nube.
+
+3. Flujo de Datos y Conversión
+
+    Almacenamiento Inicial en SQLite: Los 14 archivos CSV pueden ser importados a SQLite.
+    Transferencia a MySQL y PostgreSQL:
+        Desde SQLite, exporta los datos a CSV y luego importa estos CSV a MySQL y PostgreSQL.
+        Alternativamente, puedes usar herramientas ETL (Extract, Transform, Load) para transferir datos entre bases de datos.
+    Conversión a JSON y Almacenamiento en MongoDB:
+        Desde MySQL o PostgreSQL, exporta datos relevantes en formato JSON y luego almacénalos en MongoDB.
+    Sincronización con Atlas:
+        Sincroniza los datos de MongoDB con Atlas para tener una copia en la nube.
+
+4. Intercambio de Datos entre Bases de Datos
+
+    De Relacional a NoSQL:
+        Exporta datos de MySQL/PostgreSQL a CSV.
+        Convierte estos CSV a JSON usando scripts o herramientas como Python.
+        Importa los JSON a MongoDB.
+    De NoSQL a Relacional:
+        Exporta documentos JSON desde MongoDB.
+        Convierte estos JSON a CSV.
+        Importa los CSV a MySQL/PostgreSQL.
+
+5. Repositorio Final en SQL Server
+
+    Integración Final:
+        Importa todos los datos desde MySQL, PostgreSQL y MongoDB (convertidos a CSV) a SQL Server.
+        Usa SQL Server como repositorio central para la conexión con Power BI.
+
+Herramientas y Tecnologías Recomendadas
+
+    ETL Tools: Talend, Apache NiFi, Pentaho para transferencias de datos.
+    Script de Conversión: Python con pandas y bibliotecas de JSON para conversión de formatos.
+    Conexión a Power BI: Power BI Desktop y el conector SQL Server.
+
+Pasos Detallados
+
+    Carga Inicial: Importa los 14 CSV a SQLite.
+    Exportación a MySQL y PostgreSQL: Usa scripts para exportar desde SQLite y cargar en MySQL y PostgreSQL.
+    Conversión y Carga en MongoDB: Exporta desde MySQL/PostgreSQL a JSON y luego carga en MongoDB.
+    Sincronización con Atlas: Configura la sincronización de MongoDB local con Atlas.
+    Conversión y Transferencia Final a SQL Server:
+        Exporta los datos de MySQL/PostgreSQL/MongoDB a CSV.
+        Importa los CSV a SQL Server.
+    Conexión a Power BI: Configura Power BI para conectar y visualizar los datos desde SQL Server.

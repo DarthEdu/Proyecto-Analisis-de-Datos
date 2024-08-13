@@ -1,0 +1,76 @@
+Eduardo Porras
+
+    Definición del caso de estudio
+        Describir el contexto y la importancia del caso de estudio.
+        Explicar los problemas y desafíos que se abordan.
+
+    Objetivos General y específicos
+        Definir el objetivo general del proyecto.
+        Listar los objetivos específicos que se deben alcanzar para cumplir con el objetivo general.
+
+    Descripción del equipo de trabajo y actividades realizadas por cada uno
+        Detallar la composición del equipo.
+        Describir las actividades específicas realizadas por cada miembro del equipo, incluyendo sus responsabilidades.
+
+Mateo Tacuri
+
+    Cronograma de actividades incluyendo el diagrama de Gantt (project)
+        Elaborar el cronograma de actividades del proyecto.
+        Crear el diagrama de Gantt que muestre las fases y tareas del proyecto con sus tiempos.
+
+    Recurso y herramientas utilizadas
+        Enumerar los recursos (humanos, técnicos, etc.) utilizados en el proyecto.
+        Describir las herramientas de software y hardware empleadas, incluyendo bases de datos, lenguajes de programación, herramientas de ETL, etc.
+
+    Arquitectura de la solución
+        Presentar la arquitectura de la solución propuesta.
+        Incluir diagramas y descripciones detalladas de cómo se integran las diferentes bases de datos y flujos de datos.
+
+Mateo Bernal
+
+    Extracción de datos
+        Explicar el proceso de extracción de datos desde las fuentes originales.
+        Describir las herramientas y scripts utilizados para la extracción de datos.
+
+    Análisis de información
+        Describir los métodos y técnicas utilizadas para analizar los datos extraídos.
+        Incluir cualquier herramienta de análisis de datos utilizada, como Python, R, SQL, etc.
+
+    Visualización de información
+        Explicar cómo se visualizan los datos utilizando Power BI u otras herramientas de visualización.
+        Incluir ejemplos de gráficos, tablas y dashboards creados.
+
+Secciones Comunes (Colaborativas)
+
+    Resultados obtenidos
+        Recopilar y resumir los resultados obtenidos de las diferentes etapas del proyecto.
+        Esta sección puede ser una colaboración de todos los miembros para asegurar que se cubran todos los aspectos.
+
+    Conclusiones y Recomendaciones
+        Discutir las conclusiones del proyecto basadas en los resultados obtenidos.
+        Ofrecer recomendaciones para futuros proyectos o mejoras.
+        Esta sección también puede ser una colaboración de todos los miembros del equipo para proporcionar una perspectiva integral.
+
+Ejemplo de Distribución en el Informe
+Eduardo Porras
+
+    Definición del caso de estudio
+    Objetivos General y específicos
+    Descripción del equipo de trabajo y actividades realizadas por cada uno
+
+Mateo Tacuri
+
+    Cronograma de actividades incluyendo el diagrama de Gantt (project)
+    Recurso y herramientas utilizadas
+    Arquitectura de la solución
+
+Mateo Bernal
+
+    Extracción de datos
+    Análisis de información
+    Visualización de información
+
+Colaborativo
+
+    Resultados obtenidos
+    Conclusiones y Recomendaciones
